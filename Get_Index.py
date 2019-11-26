@@ -35,13 +35,13 @@ def Adjust_F_CR(DIr,Fo,CRo,y_cod_F,y_cod_CR,Fc):
   # reajuste do intervalo (se necessario)
   if(CRo> 1):
     CRo=1
-  if(CRo< 0.05):
-    CRo=0.05
+  if(CRo< Fc):
+    CRo=Fc
       
   # reajuste do intervalo (se necessario)
   if(Fo> 1):
     Fo=1
-  if(Fo< 0.05):
-    Fo=0.05
+  if(Fo< Fc):
+    Fo=Fc
       
   return Fo,CRo
