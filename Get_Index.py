@@ -9,7 +9,7 @@ def Di_rel(X,DIo):
   return DIr,DI
 
 
-Adjust_F_CR(DIr,Fo,CRo,y_cod_F,y_cod_CR,Fc):
+def Adjust_F_CR(DIr,Fo,CRo,y_cod_F,y_cod_CR,Fc):
 
   Fd=DIr
   CRa=np.copy(CRo)
