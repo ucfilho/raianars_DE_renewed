@@ -6,7 +6,7 @@ def Di_rel(X,DIo):
         soma=soma+(X[i,j]-Xj)**2
   DI=(soma/nrow)**0.5
   DIr=DI/DIo
-  return DIr
+  return DIr,DI
 
 
 Adjust_F_CR(DIr,Fo,CRo,y_cod_F,y_cod_CR,Fc):
