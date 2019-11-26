@@ -1,3 +1,5 @@
+import numpy as np
+
 def Di_rel(X,DIo):
   nrow,ncol=np.array(X).shape()
   soma=0
