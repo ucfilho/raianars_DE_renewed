@@ -1,7 +1,7 @@
 import numpy as np
 
 def Di_rel(X,DIo):
-  nrow,ncol=np.array(X).shape()
+  nrow,ncol=(np.array(X)).shape()
   soma=0
   for j in range(ncol):
     for i in range(nrow):
